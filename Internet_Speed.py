@@ -14,13 +14,14 @@ def SpeedTest():
             ping=test.results.ping
                 
                 
-            download_speed=round(download_speed/(8*10**6),2)
-            upload_speed=round(upload_speed/(8*10**6),2)
+            download_speed=round(download_speed/(10**6),2)
+            upload_speed=round(upload_speed/(10**6),2)
             ping=round(ping,2)
             
             
-            st.markdown(f"**Download speed:** {download_speed} MBPS")
-            st.markdown(f"**Upload speed:** {upload_speed} MBPS")
+            st.markdown(f"**Download speed:** {download_speed} Mbps")
+            st.markdown(f"**Upload speed:** {upload_speed} Mbps")
             st.markdown(f"**Ping:** {ping} ms")
 SpeedTest()
+
 
