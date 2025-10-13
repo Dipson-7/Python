@@ -1,4 +1,5 @@
 streamlit
 countryinfo
-Internet_Speed
+speedtest
+
 
